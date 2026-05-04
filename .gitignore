@@ -1,0 +1,14 @@
+# Local config — generated on first run, contains your IDs and email
+config.json
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python venvs (if you script around the skill)
+.venv/
+__pycache__/
+*.pyc
