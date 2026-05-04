@@ -1,0 +1,70 @@
+{
+  "_comment": "This is a reference for what the skill writes to config.json after onboarding. You don't need to edit this manually — running the skill for the first time fills it in via guided setup. Kept here for transparency and for advanced users who want to pre-populate.",
+
+  "user": {
+    "name": "",
+    "first_name": "",
+    "title": "",
+    "company": "",
+    "email": ""
+  },
+
+  "slack": {
+    "connected": false,
+    "user_id": "",
+    "dm_channel": "",
+    "channels": []
+  },
+
+  "email": {
+    "connected": false,
+    "address": ""
+  },
+
+  "calendar": {
+    "connected": false,
+    "primary_id": ""
+  },
+
+  "transcripts": {
+    "connected": false,
+    "provider": ""
+  },
+
+  "crm": {
+    "connected": false,
+    "provider": "",
+    "pipeline_stages": [
+      { "label": "Prospect",         "probability": 0.10 },
+      { "label": "Qualified",        "probability": 0.30 },
+      { "label": "Demo",             "probability": 0.50 },
+      { "label": "Decision Maker",   "probability": 0.70 },
+      { "label": "Pilot",            "probability": 0.80 },
+      { "label": "Contract",         "probability": 0.90 },
+      { "label": "Closed Won",       "probability": 1.00 }
+    ]
+  },
+
+  "tracker": {
+    "connected": false,
+    "provider": "",
+    "exec_project_key": "",
+    "sprint_project_key": "",
+    "cloud_id": "",
+    "account_id": ""
+  },
+
+  "delivery": {
+    "workspace_path": "~/Documents/Weekly-Briefs",
+    "schedule": "Fri 17:00 local",
+    "stale_deal_threshold_days": 5,
+    "tone": "Concise, direct, action-driven. No fluff."
+  },
+
+  "priority": {
+    "_comment": "Override the default P0/P1/P2 definitions here. Leave empty to use the defaults in SKILL.md.",
+    "p0": "",
+    "p1": "",
+    "p2": ""
+  }
+}
